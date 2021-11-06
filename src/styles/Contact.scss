@@ -16,6 +16,7 @@
     cursor: text;
 }
 
+
 .contact-form .form-field{
     position: relative;
     
@@ -47,7 +48,7 @@
 .contact-form .label{
     @include label;
     position: absolute;
-    bottom: 11px;
+    bottom: 15px;
     line-height: 26px;
     transition: transform .2s ease-in-out;
 }
@@ -71,6 +72,10 @@
 .btn-send{
     background: none;
     border: none;
+}
+
+.text-error{
+    font-size: 10px;
 }
 
 
