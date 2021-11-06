@@ -1,0 +1,22 @@
+@import "styles";
+
+@mixin bg{
+    background-color: #000;
+}
+
+nav{
+    @include bg;
+}
+
+.textUl{
+    @include media-up(lg){
+        text-transform: uppercase;
+    }
+}
+
+.dropdown-menu{
+    @include bg;
+}
+
+
+
