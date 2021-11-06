@@ -1,9 +1,10 @@
 import React from 'react'
+import { Navbar } from './components/Navbar'
 
 export const ContactApp = () => {
     return (
-        <div  className="container-fluid">
-            <h1>Hola</h1>
-        </div>
+        <>
+            <Navbar/>
+        </>
     )
 }
