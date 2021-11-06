@@ -1,0 +1,72 @@
+@mixin text-input{
+    width: 100%;
+    border-color: #fff;
+    color: #fff;
+    background-color: #000;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+@mixin label{
+    left: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    cursor: text;
+}
+
+.contact-form .form-field{
+    position: relative;
+    
+}
+
+.contact-form .input-text{
+    @include text-input;
+    height: 36px;
+    border-width: 0 0 2px 0;
+}
+
+.contact-form .input-textarea{
+    @include text-input;
+    height: 90px;
+    border-radius: 10px;
+
+}
+
+.contact-form .input-text:focus + .label,
+.contact-form .input-text.not-empty + .label{
+    transform: translateY(-24px);
+}
+
+
+.contact-form .input-text:focus{
+    outline: none;
+}
+
+.contact-form .label{
+    @include label;
+    position: absolute;
+    bottom: 11px;
+    line-height: 26px;
+    transition: transform .2s ease-in-out;
+}
+
+.contact-form .labelmessage{
+    @include label;
+}
+
+.contact-form .form-btn{
+    position: relative;
+    
+}
+
+.submit_container{
+    width: 80px;
+    height: 80px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+
+
+

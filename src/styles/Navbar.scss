@@ -1,22 +1,27 @@
 @import "styles";
 
-@mixin bg{
-    background-color: #000;
-}
-
-nav{
-    @include bg;
-}
-
 .textUl{
     @include media-up(lg){
         text-transform: uppercase;
     }
 }
 
-.dropdown-menu{
-    @include bg;
+.divBuscador{
+    width: 100%;
 }
+
+.itemTalento:hover{
+    text-decoration: underline;
+}
+
+#searchIcon{
+    @include media-up(lg){
+        display:none;
+    }
+}
+
+
+
 
 
 
