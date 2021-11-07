@@ -1,7 +1,9 @@
 $black: #000;
+$gray: #212529;
 
 $theme-colors: (
-    "dark":   $black
+    "dark":   $black,
+    "gray":   $gray
   );
 
 @import "../node_modules/bootstrap/scss/bootstrap";

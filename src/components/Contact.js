@@ -56,7 +56,7 @@ export const Contact = () => {
 
     return (
         <div className="container-fluid bg-dark">
-            <div className="container bg-dark py-3">
+            <div className="container bg- py-3">
             <form onSubmit={handleSubmit}>
             <div className="contact-form d-flex justify-content-between row">
                 <div className="list_left col-lg-6">

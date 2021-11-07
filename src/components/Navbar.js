@@ -34,7 +34,7 @@ export const Navbar = () => {
                         <li className="nav-item"><a href="#" className="nav-link">Casos de exito</a></li>
                         <li className="nav-item dropdown">
                             <a className="dropdown-toggle nav-link" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mercados</a>
-                            <ul className="dropdown-menu" role="menu">
+                            <ul className="dropdown-menu bg-dark" role="menu">
                                 <div className="divsubmenu">
                                     <li className="nav-item border-left"><a href="#" className="nav-link">AAPP</a></li>
                                     <li className="nav-item border-left"><a href="#" className="nav-link">BANCA</a></li>
@@ -47,7 +47,7 @@ export const Navbar = () => {
                         </li>
                         <li className="nav-item dropdown">
                             <a className="dropdown-toggle nav-link" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Paises</a>
-                            <ul className="dropdown-menu" role="menu">
+                            <ul className="dropdown-menu bg-dark" role="menu">
                                 <div className="divsubmenu">
                                     <li className="nav-item border-left"><a href="#" className="nav-link">Chile</a></li>
                                     <li className="nav-item border-left"><a href="#" className="nav-link">Colombia</a></li>
@@ -60,7 +60,7 @@ export const Navbar = () => {
                         </li>
                         <li className="nav-item dropdown">
                             <a className="dropdown-toggle nav-link" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Somos VASS</a>
-                            <ul className="dropdown-menu" role="menu">
+                            <ul className="dropdown-menu bg-dark" role="menu">
                                 <div className="divsubmenu">
                                     <li className="nav-item border-left"><a href="#" className="nav-link">Equipo</a></li>
                                     <li className="nav-item border-left"><a href="#" className="nav-link">Nosotros</a></li>
@@ -71,7 +71,7 @@ export const Navbar = () => {
                         </li>
                         <li className="nav-item dropdown">
                             <a className="dropdown-toggle nav-link" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Como lo hacemos</a>
-                            <ul className="dropdown-menu" role="menu">
+                            <ul className="dropdown-menu bg-dark" role="menu">
                                 <div className="divsubmenu">
                                     <li className="nav-item border-left"><a href="#" className="nav-link">¿QUE LOGRAMOS?</a></li>
                                     <li className="nav-item border-left"><a href="#" className="nav-link">¿COMO LO LOGRAMOS?</a></li>

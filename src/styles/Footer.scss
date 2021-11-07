@@ -1,0 +1,42 @@
+@import "styles";
+
+.text_container_1{
+    width: 30%;
+    font-size: 18px;
+    text-align: right;
+    font-weight: 600;
+
+    @include media-down(sm){
+        width: 90%;
+    }
+
+    @include media-down(md){
+        width: 60%;
+    }
+}
+
+.text_title{
+    font-size: 13px;
+    font-weight: 600;
+
+    @include media-down(sm){
+        font-size: 16px;
+    }
+}
+
+.item_list{
+    font-size: 11px;
+
+    @include media-down(sm){
+        font-size: 13px;
+    }
+}
+
+.copy_container{
+    border-top: 1px solid #fff;
+}
+
+
+.icon_social{
+    color: #fff;
+}
