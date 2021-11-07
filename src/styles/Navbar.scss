@@ -20,8 +20,26 @@
     }
 }
 
+.menu-area{
+    position: static;
+}
 
+.mega-area{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin-top: -1px;
+}
 
+.dropdown-item{
+    padding: 20px;
+    color: #fff;
+    transition: all 0.3s;
+}
 
-
-
+.dropdown-item:hover{
+    color: #000;
+    font-size: 21px;
+    background-color: #fff;
+}

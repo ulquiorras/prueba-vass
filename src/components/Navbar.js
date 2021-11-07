@@ -32,52 +32,91 @@ export const Navbar = () => {
                 <div className=" collapse navbar-collapse" id="menu-principal">
                     <ul className="textUl navbar-nav ml-auto">                        
                         <li className="nav-item"><a href="#" className="nav-link">Casos de exito</a></li>
-                        <li className="nav-item dropdown">
-                            <a className="dropdown-toggle nav-link" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mercados</a>
-                            <ul className="dropdown-menu bg-dark" role="menu">
-                                <div className="divsubmenu">
-                                    <li className="nav-item border-left"><a href="#" className="nav-link">AAPP</a></li>
-                                    <li className="nav-item border-left"><a href="#" className="nav-link">BANCA</a></li>
-                                    <li className="nav-item border-left"><a href="#" className="nav-link">EU&E</a></li>
-                                    <li className="nav-item border-left"><a href="#" className="nav-link">INDUSTRIA</a></li>
-                                    <li className="nav-item border-left"><a href="#" className="nav-link">SEGUROS</a></li>
-                                    <li className="nav-item border-left"><a href="#" className="nav-link">TELCO & MEDIA</a></li>
+                        <li className="nav-item dropdown menu-area">
+                            <a className="dropdown-toggle nav-link" href="" id="mega-one" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mercados</a>
+                            <div className="dropdown-menu mega-area bg-dark" aria-labelledby="mega-one">
+                                <div className="row">
+                                    <div className="col-sm-12 col-lg-2">
+                                        <a href="#" className="dropdown-item">AAPP</a>
+                                    </div>
+                                    <div className="col-sm-12 col-lg-2 border-left">
+                                        <a href="#" className="dropdown-item">BANCA</a>
+                                    </div>
+                                    <div className="col-sm-12 col-lg-2 border-left">
+                                        <a href="#" className="dropdown-item">EU&E</a>
+                                    </div>
+                                    <div className="col-sm-12 col-lg-2 border-left">
+                                        <a href="#" className="dropdown-item">INDUSTRIA</a>
+                                    </div>
+                                    <div className="col-sm-12 col-lg-2 border-left">
+                                        <a href="#" className="dropdown-item">SEGUROS</a>
+                                    </div>
+                                    <div className="col-sm-12 col-lg-2 border-left">
+                                        <a href="#" className="dropdown-item">TELCO & MEDIA</a>
+                                    </div>
                                 </div>
-                            </ul>                                
+                            </div>
                         </li>
-                        <li className="nav-item dropdown">
-                            <a className="dropdown-toggle nav-link" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Paises</a>
-                            <ul className="dropdown-menu bg-dark" role="menu">
-                                <div className="divsubmenu">
-                                    <li className="nav-item border-left"><a href="#" className="nav-link">Chile</a></li>
-                                    <li className="nav-item border-left"><a href="#" className="nav-link">Colombia</a></li>
-                                    <li className="nav-item border-left"><a href="#" className="nav-link">Mexico</a></li>
-                                    <li className="nav-item border-left"><a href="#" className="nav-link">Peru</a></li>
-                                    <li className="nav-item border-left"><a href="#" className="nav-link">Reino Unido</a></li>
-                                    <li className="nav-item border-left"><a href="#" className="nav-link">Benelux</a></li>
+                        <li className="nav-item dropdown menu-area">
+                            <a className="dropdown-toggle nav-link" href="" id="mega-one" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Paises</a>
+                            <div className="dropdown-menu mega-area bg-dark" aria-labelledby="mega-one">
+                                <div className="row">
+                                    <div className="col-sm-12 col-lg-2">
+                                        <a href="#" className="dropdown-item">Chile</a>
+                                    </div>
+                                    <div className="col-sm-12 col-lg-2 border-left">
+                                        <a href="#" className="dropdown-item">Colombia</a>
+                                    </div>
+                                    <div className="col-sm-12 col-lg-2 border-left">
+                                        <a href="#" className="dropdown-item">Mexico</a>
+                                    </div>
+                                    <div className="col-sm-12 col-lg-2 border-left">
+                                        <a href="#" className="dropdown-item">Peru</a>
+                                    </div>
+                                    <div className="col-sm-12 col-lg-2 border-left">
+                                        <a href="#" className="dropdown-item">Reino Unido</a>
+                                    </div>
+                                    <div className="col-sm-12 col-lg-2 border-left">
+                                        <a href="#" className="dropdown-item">Benelux</a>
+                                    </div>
                                 </div>
-                            </ul>
+                            </div>
                         </li>
-                        <li className="nav-item dropdown">
-                            <a className="dropdown-toggle nav-link" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Somos VASS</a>
-                            <ul className="dropdown-menu bg-dark" role="menu">
-                                <div className="divsubmenu">
-                                    <li className="nav-item border-left"><a href="#" className="nav-link">Equipo</a></li>
-                                    <li className="nav-item border-left"><a href="#" className="nav-link">Nosotros</a></li>
-                                    <li className="nav-item border-left"><a href="#" className="nav-link">RSC</a></li>
-                                    <li className="nav-item border-left"><a href="#" className="nav-link">Directorio Oficinas</a></li>
+                        
+                        <li className="nav-item dropdown menu-area">
+                            <a className="dropdown-toggle nav-link" href="" id="mega-one" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Somos VASS</a>
+                            <div className="dropdown-menu mega-area bg-dark" aria-labelledby="mega-one">
+                                <div className="row">
+                                    <div className="col-sm-12 col-lg-3">
+                                        <a href="#" className="dropdown-item">Equipo</a>
+                                    </div>
+                                    <div className="col-sm-12 col-lg-3 border-left">
+                                        <a href="#" className="dropdown-item">Nosotros</a>
+                                    </div>
+                                    <div className="col-sm-12 col-lg-3 border-left">
+                                        <a href="#" className="dropdown-item">RSC</a>
+                                    </div>
+                                    <div className="col-sm-12 col-lg-3 border-left">
+                                        <a href="#" className="dropdown-item">Directorio</a>
+                                    </div>
                                 </div>
-                            </ul>
+                            </div>
                         </li>
-                        <li className="nav-item dropdown">
-                            <a className="dropdown-toggle nav-link" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Como lo hacemos</a>
-                            <ul className="dropdown-menu bg-dark" role="menu">
-                                <div className="divsubmenu">
-                                    <li className="nav-item border-left"><a href="#" className="nav-link">¿QUE LOGRAMOS?</a></li>
-                                    <li className="nav-item border-left"><a href="#" className="nav-link">¿COMO LO LOGRAMOS?</a></li>
-                                    <li className="nav-item border-left"><a href="#" className="nav-link">¿CON QUE LO LOGRAMOS?</a></li>
+                        <li className="nav-item dropdown menu-area">
+                            <a className="dropdown-toggle nav-link" href="" id="mega-one" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Como lo hacemos</a>
+                            <div className="dropdown-menu mega-area bg-dark" aria-labelledby="mega-one">
+                                <div className="row">
+                                    <div className="col-sm-12 col-lg-4">
+                                        <a href="#" className="dropdown-item">¿QUE LOGRAMOS?</a>
+                                    </div>
+                                    <div className="col-sm-12 col-lg-4 border-left">
+                                        <a href="#" className="dropdown-item">¿COMO LO LOGRAMOS?</a>
+                                    </div>
+                                    <div className="col-sm-12 col-lg-4 border-left">
+                                        <a href="#" className="dropdown-item">¿CON QUE LO LOGRAMOS?</a>
+                                    </div>
                                 </div>
-                            </ul>
+                            </div>
                         </li>
                         <li className="nav-item"><a href="#" className="nav-link">Insights</a></li>
                         <li className="nav-item"><a href="#" className="nav-link">Noticias</a></li>

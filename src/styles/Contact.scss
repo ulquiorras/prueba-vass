@@ -48,8 +48,9 @@
 .contact-form .label{
     @include label;
     position: absolute;
-    bottom: 15px;
+    bottom: 18px;
     line-height: 26px;
+    opacity: 0.6;
     transition: transform .2s ease-in-out;
 }
 
