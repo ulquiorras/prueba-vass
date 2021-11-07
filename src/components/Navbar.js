@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "../styles/Navbar.scss"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -7,8 +7,21 @@ import { faBars, faSearch } from "@fortawesome/free-solid-svg-icons";
 import Logo from "../assets/logo-vass-blanco.png";
 
 export const Navbar = () => {
+
+    const [navbar, setNavbar] = useState(false);
+
+    const changeBackground = () =>{
+        if(window.scrollY >= 80){
+            setNavbar(true)
+        }else{
+            setNavbar(false)
+        }
+    }
+
+    window.addEventListener('scroll', changeBackground)
+
     return (
-        <nav className="navbar navbar-dark bg-dark navbar-expand-lg fixed-top">
+        <nav className={navbar ? 'navbar navbar-dark navbar-expand-lg fixed-top active' : 'navbar navbar-dark navbar-expand-lg fixed-top'}>
             <div className="container-fluid">
                 <a href="#" className="navbar-brand">
                     <img src={Logo}/>
